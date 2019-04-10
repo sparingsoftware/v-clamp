@@ -1,5 +1,5 @@
 {
-  "name": "v-clamp",
+  "name": "@sparing-software/v-clamp",
   "version": "1.0.0",
   "description": "Vue directive plugin for text truncate",
   "main": "./lib/v-clamp.js",
