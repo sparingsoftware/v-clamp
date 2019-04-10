@@ -1,0 +1,28 @@
+{
+  "name": "v-clamp",
+  "version": "1.0.0",
+  "description": "Vue directive plugin for text truncate",
+  "main": "./lib/v-clamp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparingSoftware/v-clamp.git"
+  },
+  "keywords": [
+    "text",
+    "clamp",
+    "truncate",
+    "plugin",
+    "directive",
+    "vue",
+    "nuxt"
+  ],
+  "author": "SparingSoftware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SparingSoftware/v-clamp/issues"
+  },
+  "homepage": "https://github.com/SparingSoftware/v-clamp#readme"
+}
