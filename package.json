@@ -4,6 +4,7 @@
   "description": "Vue directive plugin for text truncate",
   "main": "./lib/v-clamp.js",
   "scripts": {
+    "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/SparingSoftware/v-clamp/issues"
   },
-  "homepage": "https://github.com/SparingSoftware/v-clamp#readme"
+  "homepage": "https://github.com/SparingSoftware/v-clamp#readme",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
 }
