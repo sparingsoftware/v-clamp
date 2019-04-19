@@ -44,6 +44,21 @@ Look at the example below:
 </style>
 ```
 
+### Options
+- **replacement** (type: _String_) - replacement character  
+_default_ '…' - standard ellipsis character  
+Warning! Usage space in this string causes errors!
+- **debounceTime** (type: _Number_) - debounce time in milliseconds for listeners on resize and orientation change  
+_default_ 300
+
+Example config with own options
+```javascript
+Vue.use(Clamp, {
+  replacement: '...',
+  debounceTime: 100
+})
+```
+
 ## Contributing
 Want to help improve this plugin? Great!  
 Project is open-source so fork repo and join us!
